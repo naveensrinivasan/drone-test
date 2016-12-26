@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: docker/busybox
+    image: busybox
     commands:
       - printenv
       - echo $PASSWORD
