@@ -1,0 +1,7 @@
+pipeline:
+  build:
+    image: docker/busybox
+    commands:
+      - printenv
+      - echo $PASSWORD
+
